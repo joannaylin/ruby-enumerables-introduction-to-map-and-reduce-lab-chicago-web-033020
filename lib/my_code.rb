@@ -55,10 +55,10 @@ end
 def reduce_to_any_true(source_array)
   i = 0
   while i < source_array.length do
-    return true if source_array[i] 
+    return true if source_array[i]
   else
     nil
     i += 1
   end
-  
+
 end
